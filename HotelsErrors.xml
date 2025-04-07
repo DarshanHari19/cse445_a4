@@ -7,7 +7,7 @@
     <Name>Westin</Name>
     <Name>Westin Duplicate</Name>
     <!-- Error 3: Missing Phone element (completely omitted) -->
-    <Address NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
