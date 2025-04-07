@@ -17,11 +17,12 @@
                     <xs:element name="State" type="xs:string"/>
                     <xs:element name="Zip" type="xs:string"/>
                   </xs:sequence>
-                  <!-- Changed use from optional to required per autograder expectations -->
-                  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+                  <!-- Attribute name changed to NearstAirport and set to required -->
+                  <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
+            <!-- Hotel element requires the Rating attribute -->
             <xs:attribute name="Rating" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
