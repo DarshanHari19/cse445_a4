@@ -4,7 +4,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Habor">
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
       <Street>E.7th St</Street>
       <City>Tempe</City>
@@ -15,7 +15,7 @@
   <Hotel Rating="4.5">
     <Name>Marriott</Name>
     <Phone>123-456-7890</Phone>
-    <Address NearestAirport="Midway">
+    <Address NearstAirport="Midway">
       <Number>22</Number>
       <Street>Main St</Street>
       <City>Phoenix</City>
@@ -27,7 +27,8 @@
     <Name>Hilton</Name>
     <Phone>234-567-8901</Phone>
     <Phone>345-678-9012</Phone>
-    <Address NearestAirport="LAX">
+    <!-- If no airport info is available, provide a placeholder -->
+    <Address NearstAirport="LAX">
       <Number>33</Number>
       <Street>Broadway</Street>
       <City>Los Angeles</City>
@@ -38,7 +39,7 @@
   <Hotel Rating="4.0">
     <Name>Sheraton</Name>
     <Phone>456-789-0123</Phone>
-    <Address NearestAirport="LAX">
+    <Address NearstAirport="LAX">
       <Number>44</Number>
       <Street>Sunset Blvd</Street>
       <City>Los Angeles</City>
@@ -49,7 +50,7 @@
   <Hotel Rating="4.1">
     <Name>Hyatt</Name>
     <Phone>567-890-1234</Phone>
-    <Address NearestAirport="LAX">
+    <Address NearstAirport="LAX">
       <Number>55</Number>
       <Street>Rodeo Dr</Street>
       <City>Los Angeles</City>
@@ -60,7 +61,7 @@
   <Hotel Rating="3.8">
     <Name>InterContinental</Name>
     <Phone>678-901-2345</Phone>
-    <Address NearestAirport="O'Hare">
+    <Address NearstAirport="O'Hare">
       <Number>66</Number>
       <Street>Ocean Dr</Street>
       <City>Miami</City>
@@ -72,7 +73,7 @@
     <Name>Ritz-Carlton</Name>
     <Phone>789-012-3456</Phone>
     <Phone>890-123-4567</Phone>
-    <Address NearestAirport="O'Hare">
+    <Address NearstAirport="O'Hare">
       <Number>77</Number>
       <Street>Lake Shore Dr</Street>
       <City>Chicago</City>
@@ -83,7 +84,7 @@
   <Hotel Rating="4.3">
     <Name>Four Seasons</Name>
     <Phone>901-234-5678</Phone>
-    <Address NearestAirport="Heathrow">
+    <Address NearstAirport="Heathrow">
       <Number>88</Number>
       <Street>Park Lane</Street>
       <City>London</City>
@@ -94,7 +95,7 @@
   <Hotel Rating="4.0">
     <Name>Mandarin Oriental</Name>
     <Phone>012-345-6789</Phone>
-    <Address NearestAirport="Changi">
+    <Address NearstAirport="Changi">
       <Number>99</Number>
       <Street>Orchard Rd</Street>
       <City>Singapore</City>
@@ -106,7 +107,7 @@
     <Name>Shangri-La</Name>
     <Phone>111-222-3333</Phone>
     <Phone>444-555-6666</Phone>
-    <Address NearestAirport="Narita">
+    <Address NearstAirport="Narita">
       <Number>101</Number>
       <Street>Ginza</Street>
       <City>Tokyo</City>
