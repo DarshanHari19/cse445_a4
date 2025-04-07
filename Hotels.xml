@@ -27,7 +27,7 @@
     <Name>Hilton</Name>
     <Phone>234-567-8901</Phone>
     <Phone>345-678-9012</Phone>
-    <Address>
+    <Address NearestAirport="LAX">
       <Number>33</Number>
       <Street>Broadway</Street>
       <City>Los Angeles</City>
@@ -60,7 +60,7 @@
   <Hotel Rating="3.8">
     <Name>InterContinental</Name>
     <Phone>678-901-2345</Phone>
-    <Address>
+    <Address NearestAirport="O'Hare">
       <Number>66</Number>
       <Street>Ocean Dr</Street>
       <City>Miami</City>
