@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-  <!-- Hotel #1: Westin (matches the figure exactly) -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
       <Street>E.7th St</Street>
       <City>Tempe</City>
@@ -13,8 +12,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #2: has NearstAirport -->
   <Hotel Rating="4.5">
     <Name>Marriott</Name>
     <Phone>123-456-7890</Phone>
@@ -26,13 +23,12 @@
       <Zip>85001</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #3: omit NearstAirport to demonstrate optional -->
   <Hotel Rating="3.9">
     <Name>Hilton</Name>
     <Phone>234-567-8901</Phone>
     <Phone>345-678-9012</Phone>
-    <Address>
+    <!-- If no airport info is available, provide a placeholder -->
+    <Address NearstAirport="LAX">
       <Number>33</Number>
       <Street>Broadway</Street>
       <City>Los Angeles</City>
@@ -40,8 +36,6 @@
       <Zip>90015</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #4: has NearstAirport -->
   <Hotel Rating="4.0">
     <Name>Sheraton</Name>
     <Phone>456-789-0123</Phone>
@@ -53,12 +47,10 @@
       <Zip>90028</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #5: omit NearstAirport -->
   <Hotel Rating="4.1">
     <Name>Hyatt</Name>
     <Phone>567-890-1234</Phone>
-    <Address>
+    <Address NearstAirport="LAX">
       <Number>55</Number>
       <Street>Rodeo Dr</Street>
       <City>Los Angeles</City>
@@ -66,8 +58,6 @@
       <Zip>90210</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #6: has NearstAirport -->
   <Hotel Rating="3.8">
     <Name>InterContinental</Name>
     <Phone>678-901-2345</Phone>
@@ -79,13 +69,11 @@
       <Zip>33139</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #7: omit NearstAirport -->
   <Hotel Rating="4.6">
     <Name>Ritz-Carlton</Name>
     <Phone>789-012-3456</Phone>
     <Phone>890-123-4567</Phone>
-    <Address>
+    <Address NearstAirport="O'Hare">
       <Number>77</Number>
       <Street>Lake Shore Dr</Street>
       <City>Chicago</City>
@@ -93,8 +81,6 @@
       <Zip>60601</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #8: has NearstAirport -->
   <Hotel Rating="4.3">
     <Name>Four Seasons</Name>
     <Phone>901-234-5678</Phone>
@@ -106,12 +92,10 @@
       <Zip>SW1A 1AA</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #9: omit NearstAirport -->
   <Hotel Rating="4.0">
     <Name>Mandarin Oriental</Name>
     <Phone>012-345-6789</Phone>
-    <Address>
+    <Address NearstAirport="Changi">
       <Number>99</Number>
       <Street>Orchard Rd</Street>
       <City>Singapore</City>
@@ -119,8 +103,6 @@
       <Zip>238823</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel #10: has NearstAirport -->
   <Hotel Rating="4.7">
     <Name>Shangri-La</Name>
     <Phone>111-222-3333</Phone>
