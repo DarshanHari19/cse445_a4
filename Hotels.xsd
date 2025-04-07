@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-  <!-- Root element -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <!-- Repeat Hotel element -->
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <!-- Hotel name -->
               <xs:element name="Name" type="xs:string"/>
-              <!-- One or more Phone elements -->
               <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-              <!-- Address element with nested elements -->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -35,5 +29,4 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
 </xs:schema>
